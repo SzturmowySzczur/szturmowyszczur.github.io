@@ -1,0 +1,22 @@
+
+body {
+  background-image: linear-gradient(to right, 
+    #f60d54 0%, 
+    #f60d54 50%, 
+    #ffd200 50%, 
+    #ffd200 100%);
+  background-size: 200% auto;
+  animation: changeBackground 10s ease-in-out infinite;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
